@@ -14,18 +14,6 @@ public class Car {
         this.powerOfEngine = powerOfEngine;
     }
 
-    public String getModel() {
-        return model;
-    }
-
-    public String getSeries() {
-        return series;
-    }
-
-    public int getPowerOfEngine() {
-        return powerOfEngine;
-    }
-
     @Override
     public String toString() {
         return "Model = " + model +
